@@ -1,0 +1,288 @@
+body{
+    margin: 0px;
+}
+.nav-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid rgb(212, 204, 204);
+    padding-right:   1%;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+.nav-div1{
+    justify-content: center;
+    display: flex;
+    width: 15%;
+    align-items: center;
+    
+}
+.logo{
+    width: 25%;
+    height: 9vh;
+    cursor: pointer;
+}
+.nav-text{
+    color: rgb(0, 186, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    cursor: pointer;
+}
+.nav-butn1{
+    padding: 7px 13px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: 1px gray solid;
+    background-color: white;
+    cursor: pointer;
+}
+.nav-butn2{
+    padding: 8px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.list{
+    margin-top: 1%;
+    -webkit-box-shadow: 0 7px 8px -7px #222;
+    -moz-box-shadow: 0 7px 8px -7px #222;
+    box-shadow: 0 7px 8px -7px #222;
+}
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+
+}
+.nav-li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 1%;
+    cursor: pointer;
+}
+.nav-li:hover{
+    text-decoration: underline;
+}
+.main-img{
+    width: 100%;
+    height: 57vh;
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    width: 40%;
+}
+.img-h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.img-para{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-butn{
+    border: none;
+    background-color: white;
+    padding: 8px 25px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    border-radius: 3px;
+}
+
+/* card-section */
+
+.card-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+.cardd {
+    width: 10%;
+    text-align: center;
+    justify-content: center;
+}
+.card-h3 {
+    font-size: 20px;
+}
+
+/* column section */
+
+.w-1 {
+    color: rgb(0, 0, 0);
+    opacity: 0.65;
+}
+.column-h1 {
+    font-weight: bolder;
+    font-size: 36px;
+    padding-top: 0;
+}
+.column-img {
+    width: 100%;
+    margin-bottom: 15%;
+}
+
+/* mokeup available */
+
+.mokeup-img-div{
+    display: flex;
+    justify-content: center;
+}
+.mokeup-img{
+    margin-right: 4%;
+}
+.mok-img{
+    width: 115%;
+}
+.but-mock {
+    background-color: #00bd28;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding: 5px 12px;
+}
+/* steps-section */
+.steps-img {
+    width: 100%;
+  }
+  .steps-heading {
+    font-size: 22px;
+    font-weight: 600;
+}
+.design-div{
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 6px black;
+    border-radius: 5px;
+    width: 25%;
+    padding: 16px;
+    margin-top: -30%;
+    margin-left: 5%;
+    position: absolute;
+}
+.d-p {
+    font-size: 22px;
+}
+.designer-name {
+    display: flex;
+    align-items: center;
+}
+.d-dp {
+    width: 50%;
+}
+.designer-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+/* banner section */
+.img-text-2 {
+    width: 40%;
+    position: absolute;
+    margin-top: -21%;
+    margin-left: 5%;
+}
+.img-h1 {
+    color: rgb(245, 242, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.img-para {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img-button {
+    border: none;
+    background-color: white;
+    padding: 8px 25px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    border-radius: 3px;
+}
+.w-2 {
+    color: #b4b0b0;
+}
+/* blog-section */
+.blog-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.blogs {
+    /* width: 10%; */
+    text-align: center;
+    justify-content: center;
+}
+  
+.blog-img {
+    width: 90%;
+}
+.blog-heading {
+    font-weight: bold;
+    padding-top: 2%;
+    padding-left: 3%;
+    font-size: 20px;
+}
+.blog-heading:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.scroll {
+    display: none;
+}
+/* footer-section */
+.footer {
+    background-color: rgb(241, 241, 255);
+}
+.flogo-name {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(4, 199, 234);
+    padding-top: 3%;
+}
+.footer-inp {
+    background-image: url(images/globe.png);
+    background-position-x: 85%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 19px;
+    border: 2px solid rgb(205, 196, 196);
+    border-radius: 18px;
+    padding: 5px 15px;
+}
+.footer-inp:focus {
+    outline: none;
+}
+  
+.table-name {
+    font-size: 14px;
+}
+.table-name:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.bi:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+.nav-div {
+    justify-content: space-between;
+    padding: 0px;
+}
+.nav-text{
+    display: block;
+}
+}
